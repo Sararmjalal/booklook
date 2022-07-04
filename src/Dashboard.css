@@ -1,0 +1,238 @@
+.authorizedMsg {
+    position: fixed;
+    height: 40px;
+    width: 570px;
+    top: calc(50vh - 20px);
+    left: calc(50vw - 285px);
+    color: #3f3730;
+}
+
+.titleDashboardContainer{
+    display: flex;
+}
+
+.titleDashboard{
+    color: #3f3730;
+    width: 50%;
+}
+
+.titleDashboardButtonContainer {
+    width: 50%;
+    text-align: right;
+}
+
+.titleDashboardButton{
+    background: #3f3730;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    color: #bfac93;
+    border: 5px double #bfac93;
+}
+
+.dashboardHeader {
+    height: 45px;
+    background: #3f3730;
+    display: flex;
+    z-index: 10;
+}
+
+.dashboardHeaderNameContainer {
+    text-align: right;
+    width: 50%;
+    color: #bfac93;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 700;
+    z-index: 10;
+}
+
+.dashboardHeaderLogoutContainer {
+    text-align: left;
+    width: 50%;
+    color: #bfac93;
+    padding: 5px 30px;
+    font-size: 18px;
+}
+
+.dashboardHeaderLogoutButton {
+    background: #3f3730;
+    padding: 0px 15px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    color: #bfac93;
+    border: 5px double #bfac93;
+}
+
+
+.dashboardMenu {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 140px;
+    z-index: 1;
+    text-align: center;
+    border: 5px double #3f3730;
+    background: #3f3730;
+    padding-top: 45px;
+}
+
+.dashboardMenuItem {
+    background: #3f3730;
+    margin-bottom: 5px;
+    padding: 15px;
+    font-size: 20px;
+    color: #bfac93;
+    font-weight: 700;
+    cursor: pointer;
+    border: 5px double #bfac93;
+}
+
+.dashboardMsg {
+    position: fixed;
+    height: 40px;
+    width: 600px;
+    top: 100px;
+    left: calc(50vw - 300px);
+    color: #3f3730;
+    text-align: center;
+}
+
+.listContainer {
+    padding: 50px;
+    width: calc(100vw - 250px);
+}
+
+.list {
+    display: flex;
+    margin-bottom: 20px;
+    border: 5px double #3f3730;
+    padding: 15px;
+}
+
+  .listImg {
+    object-fit: cover;
+    width:70px;
+    height:65px;
+    border-radius: 50px;
+  }
+
+  .listNameContainer {
+    padding: 22px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #3f3730;
+    width: 70%;
+}
+
+.editRemoveContainer {
+    padding: 22px 0px;
+    color: #3f3730;
+    font-weight: 700;
+    text-align: right;
+    width: 30%;
+}
+
+.formContainer {
+    width: 600px;
+    margin: auto;
+  }
+  
+  .formInput {
+    width: 246px;
+      margin: 10px;
+      padding: 15px;
+      border: none;
+      background: #bfac93;
+      border: 1px solid #a5957f;
+      font-size: 18px;
+      color: #3f3730;
+  }
+  
+  .summaryInput {
+      width: 544px;
+      margin: 10px;
+      padding: 15px;
+      border: none;
+      background: #bfac93;
+      border: 1px solid #a5957f;
+      font-size: 18px;
+      color: #3f3730;
+  }
+  
+  .buttonContainer {
+    width: 580px;
+    margin: auto;
+  }
+  
+  .formButton {
+    width: 100%;
+    border: none;
+    background: #3f3730;
+    color: #bfac93;
+    font-size: 20px;
+    padding: 20px;
+    margin: auto;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  .addBookContainer {
+    display: flex;
+  }
+  
+  .genresAddBookTitle {
+    color: #3f3730;
+    margin-top: 5px;
+  }
+  
+  .addBookFormContainer {
+    margin-right: 20px;
+  }
+  
+  .addBookeGenresContainer {
+    width: 600px;
+  }
+  
+  .genreNotSelect {
+    background: #bfac93;
+    font-size: 18px;
+    margin: 5px;
+    color: #3f3730;
+    padding: 10.5px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  .genreSelect {
+    background: #3f3730;
+    font-size: 18px;
+    margin: 5px;
+    color: #bfac93;
+    padding: 10.5px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  .addGenreFormContainer{
+    display: flex;
+  }
+  
+  .addGenreButtonContainer {
+    padding-top: 10px;
+  }
+  
+  .addGenreFormButton {
+    width: 100%;
+    border: none;
+    background: #3f3730;
+    color: #bfac93;
+    font-size: 20px;
+    padding: 14.5px;
+    margin: auto;
+    font-weight: 700;
+    cursor: pointer;
+  }
